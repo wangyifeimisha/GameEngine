@@ -1,0 +1,19 @@
+//----------------------------------------------------------------------------
+// Copyright 2023, Ed Keenan, all rights reserved.
+//----------------------------------------------------------------------------
+
+syntax = "proto3";
+
+import "Vec3Data.proto";
+import "QuatData.proto";
+
+option optimize_for = LITE_RUNTIME;
+
+message BoneEntry_proto
+{
+	optional Vec3Data_proto S = 1;
+	optional QuatData_proto Q = 2;
+	optional Vec3Data_proto T = 3;
+}
+
+// -- End of File ---

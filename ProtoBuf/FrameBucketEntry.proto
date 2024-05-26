@@ -1,0 +1,20 @@
+//----------------------------------------------------------------------------
+// Copyright 2023, Ed Keenan, all rights reserved.
+//----------------------------------------------------------------------------
+
+syntax = "proto3";
+
+import "BoneEntry.proto";
+
+option optimize_for = LITE_RUNTIME;
+
+message FrameBucketEntry_proto
+{
+	optional uint32             keyFrame = 1;
+	optional uint32             numBones = 2;
+	optional float               keyTime = 3;
+	optional int32          keyTimeIndex = 4;
+	repeated BoneEntry_proto poBoneEntry = 5;
+}
+
+// -- End of File ---

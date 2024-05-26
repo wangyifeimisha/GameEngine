@@ -1,0 +1,17 @@
+//----------------------------------------------------------------------------
+// Copyright 2023, Ed Keenan, all rights reserved.
+//----------------------------------------------------------------------------
+
+syntax = "proto3";
+
+option optimize_for = LITE_RUNTIME;
+
+message Vec3Data_proto
+{
+	optional float   x = 1;
+	optional float   y = 2;
+	optional float   z = 3;
+
+}
+
+// -- End of File ---

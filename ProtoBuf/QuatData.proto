@@ -1,0 +1,17 @@
+//----------------------------------------------------------------------------
+// Copyright 2023, Ed Keenan, all rights reserved.
+//----------------------------------------------------------------------------
+
+syntax = "proto3";
+
+option optimize_for = LITE_RUNTIME;
+
+message QuatData_proto
+{
+	optional float   qx = 1;
+	optional float   qy = 2;
+	optional float   qz = 3;
+	optional float   qw = 4;
+}
+
+// -- End of File ---

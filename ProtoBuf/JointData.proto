@@ -1,0 +1,16 @@
+//----------------------------------------------------------------------------
+// Copyright 2024, Ed Keenan, all rights reserved.
+//----------------------------------------------------------------------------
+
+syntax = "proto3";
+
+option optimize_for = LITE_RUNTIME;
+
+message JointData_proto
+{
+	optional bytes  pVersion = 1;
+	optional uint32 numJoints = 2;
+	repeated uint32    poData = 3;
+}
+
+// -- End of File ---

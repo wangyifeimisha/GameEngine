@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="meshData">
+    <Position X="1.25" Y="1.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="meshData::RENDER_MODE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>meshData.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AACAAAABAIBgQACAAACAADABACBAIAAAACBgAAAECAA=</HashCode>
+      <FileName>meshData.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="vbo_vert" />
+      <Field Name="vbo_norm" />
+      <Field Name="vbo_uv" />
+      <Field Name="vbo_index" />
+      <Field Name="vbo_color" />
+      <Field Name="vbo_weights" />
+      <Field Name="vbo_joints" />
+      <Field Name="vbo_invBind" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="vboData">
+    <Position X="4.75" Y="1.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="vboData::VBO_TARGET" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>vboData.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="vboData::VBO_COMPONENT" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>vboData.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="vboData::VBO_TYPE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>vboData.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAQIAAAQAABBCAAAAAACBQEAAAAAAgAAAEAAA=</HashCode>
+      <FileName>vboData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

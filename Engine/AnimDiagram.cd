@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Azul::GameObjectAnimSkeleton">
+    <Position X="5.75" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIRAEAAAIgAAAAAAAAEAAgAAIAAIgAAAAAIgAgAAAAA=</HashCode>
+      <FileName>src\GameObjectAnimSkeleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azul::GameObjectAnimSkin">
+    <Position X="9.25" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAAQAAAAAAAAAAEoAAAAAAAAAAQAAAAgAAAAAAA=</HashCode>
+      <FileName>src\GameObjectAnimSkin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azul::GraphicsObject_SkinFlatTexture">
+    <Position X="2.5" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABAAAABAAAgQAAAAAAAIAAAAAAAACAQAgQAAAAAA=</HashCode>
+      <FileName>src\GraphicsObject_SkinFlatTexture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azul::Mat4" Collapsed="true">
+    <Position X="6.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIAAOAAAAQCBAAEAGAQAwwJAAkEgEAAAgAAwCAAMQAA=</HashCode>
+      <FileName>C:\Users\ekeenan2\Desktop\Code\keenan2024winter_gam576\instructor\Week_08\ANS_w7(15.5) - Debugging\Math\include\Mat4.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

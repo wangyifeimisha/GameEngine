@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Azul::ClipData">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAIEAAAEAAAAAAAAAAACBAAAAAAAAgAAAEAAA=</HashCode>
+      <FileName>C:\code\keenan2023winter_gam576\instructor\Lecture\Week_05\w5(12) - MS1\_Version_2.0_\Proto\include\ClipData.h</FileName>
+      <NewMemberFileName>C:\code\keenan2023winter_gam576\instructor\Lecture\Week_04\w4(11) - Prototype\_Version_2.0_\Proto\include\FrameBucketEntry.h</NewMemberFileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poFrameBucketEntry" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Azul::BoneEntry">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAQAAAAAACBAAAACAAAgAACkAAA=</HashCode>
+      <FileName>C:\code\keenan2023winter_gam576\instructor\Lecture\Week_05\w5(12) - MS1\_Version_2.0_\Proto\include\BoneEntry.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="S" />
+      <Field Name="Q" />
+      <Field Name="T" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Azul::QuatData">
+    <Position X="8.25" Y="3" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAACAAAAAQQAAAAAACBAQAAAAIAgAAAEAAA=</HashCode>
+      <FileName>C:\code\keenan2023winter_gam576\instructor\Lecture\Week_05\w5(12) - MS1\_Version_2.0_\Proto\include\QuatData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azul::Vec3Data">
+    <Position X="8.25" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAACBAAAAAAABgAQgkAAA=</HashCode>
+      <FileName>C:\code\keenan2023winter_gam576\instructor\Lecture\Week_05\w5(12) - MS1\_Version_2.0_\Proto\include\Vec3Data.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azul::FrameBucketEntry">
+    <Position X="3.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAgEAAABAAAAAAAAAACBAAAAAAAAgAAAEAAE=</HashCode>
+      <FileName>C:\code\keenan2023winter_gam576\instructor\Lecture\Week_05\w5(12) - MS1\_Version_2.0_\Proto\include\FrameBucketEntry.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poBoneEntry" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
